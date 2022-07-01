@@ -6,11 +6,11 @@ const Netflix = () => {
 
 return (
     <Card 
-          key={Sdata[0].id}
-          sname= {Sdata[0].sname}
-          imgsrc= {Sdata[0].imgsrc}
-          title={Sdata[0].title}
-          links= {Sdata[0].links}
+          key={Sdata[1].id}
+          sname= {Sdata[1].sname}
+          imgsrc= {Sdata[1].imgsrc}
+          title={Sdata[1].title}
+          links= {Sdata[1].links}
   />
   );
 }

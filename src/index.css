@@ -1,0 +1,102 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/cb44a7112014391.600c9389773bc.jpg") no-repeat fixed center;
+}
+
+.main {
+   width: 25%;
+   height: 80vh;
+   background: transparent;
+   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 4);
+   border-radius: 15px;
+ }
+
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+       }
+
+.card {
+   margin: 6%;
+   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+   background-color: #fff;
+   width: 21.25%;
+   border-radius: 12px;
+   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+   float: left;
+       }
+
+.card:hover {
+   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+   transform: scale(1.05, 1.05);
+            }
+
+.card_img {
+   width: 100%;
+   height: 235px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+            }
+
+.card_info{
+   background-color: #fff;
+   border-bottom-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
+          }
+
+.card_category {
+   font-family: 'Raleway', sans-serif;
+   text-transform: uppercase;
+   font-size: 13px;
+   letter-spacing: 2px;
+   font-weight: 600;
+   color: black;
+   background-color: #fff;
+               }         
+
+.card_title {
+   margin-top: 5px;
+   margin-bottom: 10px;
+   font-family: 'Raleway', sans-serif;
+   background-color: #fff;
+   text-transform: capitalize;
+           }
+
+button{
+   padding: 5px 8px;
+   font-family: 'Raleway', sans-serif;
+   text-transform: uppercase;
+   font-size: 13px;
+   letter-spacing: 2px;
+   font-weight: 600;
+   color: #868686;
+   background-color: #fff;
+   outline: none;
+   border: 1px solid black;
+   cursor: pointer;
+        }
+        
+@media (max-width: 768px){
+   .card{
+     float: none;
+     margin: 5%;
+     width: 90%;
+   }
+}        
